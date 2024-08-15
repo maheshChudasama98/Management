@@ -151,6 +151,7 @@
           "custom-style",
           "custom-redux",
           "custom-fortawesome",
+          "custom-antd",
           [
             "parent",
             "sibling",
@@ -170,7 +171,8 @@
             "custom-types": "src/types/**",
             "custom-style": "src/assets/styles/**",
             "custom-redux": "src/Re/**",
-            "custom-fortawesome": "@fortawesome/**"
+            "custom-fortawesome": "@fortawesome/**",
+            "custom-antd": "antd"
           }
         },
         "internal-pattern": [
