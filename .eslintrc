@@ -148,6 +148,9 @@
           "custom-components",
           "custom-sections",
           "custom-types",
+          "custom-style",
+          "custom-redux",
+          "custom-fortawesome",
           [
             "parent",
             "sibling",
@@ -164,7 +167,10 @@
             "custom-utils": "src/utils/**",
             "custom-components": "src/components/**",
             "custom-sections": "src/sections/**",
-            "custom-types": "src/types/**"
+            "custom-types": "src/types/**",
+            "custom-style": "src/assets/styles/**",
+            "custom-redux": "src/Re/**",
+            "custom-fortawesome": "@fortawesome/**"
           }
         },
         "internal-pattern": [
