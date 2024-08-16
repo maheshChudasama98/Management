@@ -18,7 +18,7 @@ import AppConversionRates from '../app-conversion-rates';
 
 // ----------------------------------------------------------------------
 
-export default function AppView() {
+export default function   AppView() {
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
@@ -133,6 +133,7 @@ export default function AppView() {
                 { label: 'South Korea', value: 690 },
                 { label: 'Netherlands', value: 1100 },
                 { label: 'United States', value: 1200 },
+                { label: 'United Kingdom', value: 1380 },
                 { label: 'United Kingdom', value: 1380 },
               ],
             }}

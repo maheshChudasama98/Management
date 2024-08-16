@@ -24,12 +24,12 @@ export default function Router() {
         </DashboardLayout>
       ),
       children: [
-        // { element: <IndexPage />, index: true },
-        { element: <FinancialPage />, index: true },
+        { element: <IndexPage />, index: true },
+        // { element: <FinancialPage />, index: true },
         { path: 'financial', element: <FinancialPage />, },
-        // { path: 'user', element: <UserPage /> },
-        // { path: 'products', element: <ProductsPage /> },
-        // { path: 'blog', element: <BlogPage /> },
+        { path: 'user', element: <UserPage /> },
+        { path: 'products', element: <ProductsPage /> },
+        { path: 'blog', element: <BlogPage /> },
       ],
     },
     {

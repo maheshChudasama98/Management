@@ -7,6 +7,8 @@ import IconButton from '@mui/material/IconButton';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
+import { grey } from 'src/theme/palette';
+
 import Nav from './nav';
 import Main from './main';
 import Header from './header';
@@ -42,7 +44,8 @@ export default function DashboardLayout({ children }) {
               top: 15,
               border: (theme) => `dashed 1px ${theme.palette.divider}`,
               borderRadius: 10,
-              background: "#f9fafb",
+              background: grey[100],
+              // background: "#f9fafb",
               zIndex: 999999
             }}>
 

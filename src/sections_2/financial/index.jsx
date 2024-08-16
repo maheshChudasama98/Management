@@ -6,6 +6,8 @@ import Grid from '@mui/material/Unstable_Grid2';
 import CardHeader from '@mui/material/CardHeader';
 import Typography from '@mui/material/Typography';
 
+import { grey } from 'src/theme/palette';
+
 import SvgColor from 'src/components/svg-color';
 
 import { Tabs } from 'antd';
@@ -211,7 +213,7 @@ export default function Index() {
                 marginTop: 2,
                 paddingY: 2,
                 paddingX: 2,
-                bgcolor: "#e5e5e5",
+                bgcolor: grey[300],
             }}>
                 <Tabs
                     size='large'

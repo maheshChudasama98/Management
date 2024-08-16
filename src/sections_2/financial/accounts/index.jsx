@@ -14,6 +14,14 @@ export default function Index() {
                     subheader="coming soon ..."
                 />
             </Card>
+            
+            <Card>
+                <CardHeader
+                    sx={{ marginBottom: 2.5 }}
+                    title="Accounts"
+                    subheader="coming soon ..."
+                />
+            </Card>
 
         </Box>
     )
