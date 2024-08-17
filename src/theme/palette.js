@@ -16,6 +16,9 @@ export const grey = {
   800: '#212B36',
   900: '#161C24',
 };
+export const green ={
+  100 : '#05a972',
+} 
 
 export const primary = {
   lighter: '#D0ECFE',
